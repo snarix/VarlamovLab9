@@ -13,12 +13,15 @@ namespace VarlamovLab9
         public int Number { get; set; }
         public int Result { get; set; }
 
+
         public Sprint(string fio, int number, int result)
         {
             FIO = fio;
-            Number = number;    
+            Number = number;
             Result = result;
         }
+
+        
         public override string ToString()
         {
             return $" {FIO}, {Number}, {Result}"; ;

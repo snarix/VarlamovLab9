@@ -41,9 +41,9 @@ namespace VarlamovLab9
 
         private void Result(object sender, RoutedEventArgs e)
         {
-            
+            var average = _sprint1.Average(x => x.Result);
+            MessageBox.Show(average.ToString());
         }
-
 
         private void AboutProgramm(object sender, RoutedEventArgs e)
         {
